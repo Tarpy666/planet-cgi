@@ -1,0 +1,20 @@
+{
+  "name": "@counted/planet-cgi",
+  "version": "0.1.0",
+  "description": "Compositor: layer stack, blend modes, shader catalog with uniforms pipeline.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "license": "MIT"
+}
