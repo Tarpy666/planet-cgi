@@ -2,13 +2,17 @@
 
 Compositor: layer stack, blend modes, shader catalog with uniforms pipeline.
 
-Part of the Counted fleet (planet-cgi), generated from `seeds/seeds.yaml`.
+Part of the Counted fleet (planet-cgi), stack class `backend`, generated
+from `seeds/seeds.yaml`.
 
-## Architecture
+## Architecture (docs/REPO_STANDARD.md)
 
-- `src/modules.ts` — LayerStack, BlendMath, ShaderCatalog
+- `src/lib/modules.ts` — module registry: LayerStack, BlendMath, ShaderCatalog
+- `src/lib/rng.ts` — deterministic seeded PRNG (mulberry32)
 - `src/index.ts` — public API (`SPEC`, `MODULES`, Registry)
-- `src/rng.ts` — deterministic seeded PRNG (mulberry32)
+- `src/server/` — backend service layer (reserved)
+- `assets/<kind>/` — media by kind (see assets policy READMEs)
+- `docs/STRUCTURE.md` — this repo's stack declaration + layout map
 - `tests/index.test.ts` — deterministic behavior suite
 
 ## Usage

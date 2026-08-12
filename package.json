@@ -2,6 +2,8 @@
   "name": "@counted/planet-cgi",
   "version": "0.1.0",
   "description": "Compositor: layer stack, blend modes, shader catalog with uniforms pipeline.",
+  "stack": "backend",
+  "family": "counted",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
