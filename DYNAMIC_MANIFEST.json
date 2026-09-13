@@ -1,0 +1,11 @@
+{
+  "repo": "planet-cgi",
+  "family": "planet",
+  "purpose": "planetary data flow primitives",
+  "harness_seam": "girl_interpolatable",
+  "girl_interpolatable": true,
+  "route": "/planet",
+  "widgets": [],
+  "version": "1.0.0",
+  "updated": "2026-09-13T21:55:18+00:00"
+}
